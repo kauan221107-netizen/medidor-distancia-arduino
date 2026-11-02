@@ -4,3 +4,4 @@ Projeto que mede distâncias usando um sensor ultrassônico HC-SR04 e exibe o re
 
 ## Demonstração
 
+<img src="medidor de distancia.jpeg">
