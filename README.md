@@ -70,3 +70,11 @@ Projeto que mede distâncias usando um sensor ultrassônico HC-SR04 e exibe o re
 7. (Opcional) Abra o **Monitor Serial** em 9600 baud para acompanhar as leituras no computador.
 
 A biblioteca `LiquidCrystal` já vem instalada com o Arduino IDE.
+
+## Especificações
+
+- Alcance útil do HC-SR04: aproximadamente 2 cm a 400 cm
+- Leituras por atualização: 5 (média)
+- Taxa de atualização: cerca de 3 por segundo
+- Timeout de leitura: 30 ms
+- Velocidade do Monitor Serial: 9600 baud
