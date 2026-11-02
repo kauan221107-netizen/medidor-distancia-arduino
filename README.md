@@ -1,5 +1,8 @@
 # Medidor de Distância com Arduino
 
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
+
 Projeto que mede distâncias usando um sensor ultrassônico HC-SR04 e exibe o resultado em tempo real em um display LCD 16x2.
 
 ## Demonstração
