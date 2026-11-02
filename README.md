@@ -58,3 +58,15 @@ Projeto que mede distâncias usando um sensor ultrassônico HC-SR04 e exibe o re
 6. Leituras fora do alcance do sensor (menos de 2 cm ou mais de 400 cm) são ignoradas.
 7. O resultado, com uma casa decimal, é mostrado no LCD e enviado ao Monitor Serial a cada 300 ms.
 8. Se nenhuma leitura válida for obtida, o display mostra **FORA DE FAIXA**.
+
+## Como usar
+
+1. Monte o circuito conforme as tabelas acima.
+2. Instale o [Arduino IDE](https://www.arduino.cc/en/software).
+3. Abra o arquivo `medidor_distancia/medidor_distancia.ino`.
+4. Selecione a placa (**Arduino Uno**) e a porta correta.
+5. Clique em **Upload**.
+6. Aproxime objetos do sensor e veja a distância no display.
+7. (Opcional) Abra o **Monitor Serial** em 9600 baud para acompanhar as leituras no computador.
+
+A biblioteca `LiquidCrystal` já vem instalada com o Arduino IDE.
