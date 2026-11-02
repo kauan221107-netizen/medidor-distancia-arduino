@@ -1,16 +1,3 @@
-/*
-  Medidor de Distância com Arduino
-  Sensor ultrassônico HC-SR04 + LCD 16x2
-
-  Melhorias desta versão:
-  - Média de várias leituras (valor mais estável)
-  - Ignora leituras fora da faixa do sensor (2 a 400 cm)
-  - Sem piscar o display (não usa lcd.clear() a cada ciclo)
-  - Uma casa decimal na distância
-  - Saída também no Monitor Serial (9600 baud)
-  - Código organizado em funções e constantes
-*/
-
 #include <LiquidCrystal.h>
 
 // ---------- Pinos (mesmas ligações da versão anterior) ----------
