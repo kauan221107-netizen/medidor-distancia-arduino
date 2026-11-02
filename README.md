@@ -78,3 +78,8 @@ A biblioteca `LiquidCrystal` já vem instalada com o Arduino IDE.
 - Taxa de atualização: cerca de 3 por segundo
 - Timeout de leitura: 30 ms
 - Velocidade do Monitor Serial: 9600 baud
+
+## Autor
+
+Kauan Jose da Silva
+CAI ELETRICA /eletrônica/ SENAI  
