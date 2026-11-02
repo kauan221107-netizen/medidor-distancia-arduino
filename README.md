@@ -42,3 +42,19 @@ Projeto que mede distâncias usando um sensor ultrassônico HC-SR04 e exibe o re
 | D7  | 2 |
 | A   | 5V (via resistor de 220 Ω) |
 | K   | GND |
+
+## Como funciona
+
+1. O Arduino envia um pulso de 10 µs no pino TRIG.
+2. O sensor emite uma onda ultrassônica e aguarda o eco.
+3. O tempo de retorno é medido com `pulseIn()` no pino ECHO.
+4. A distância é calculada pela fórmula:
+
+   ```
+   distância (cm) = tempo (µs) × 0,0343 / 2
+   ```
+
+5. São feitas 5 leituras seguidas e o programa calcula a média das válidas, o que deixa o valor mais estável.
+6. Leituras fora do alcance do sensor (menos de 2 cm ou mais de 400 cm) são ignoradas.
+7. O resultado, com uma casa decimal, é mostrado no LCD e enviado ao Monitor Serial a cada 300 ms.
+8. Se nenhuma leitura válida for obtida, o display mostra **FORA DE FAIXA**.
